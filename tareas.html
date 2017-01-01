@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Miguel Angel Arribas FullStack Web Developer</title>
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/grid.css" type="text/css">
+	<link rel="stylesheet" href="css/tareas.css" type="text/css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+	<nav class="navbar">
+		<ul class="navbar-list">
+			<li class="navbar-item active"><a href="index.html" class="navbar-link">Inicio</a></li>
+			<li class="navbar-item"><a href="index.html#quien-soy" class="navbar-link">Quien Soy</a></li>
+			<li class="navbar-item" id="skill-section"><a href="index.html#skills" class="navbar-link">Skills</a></li>
+			<li class="navbar-item"><a href="index.html#estudios" class="navbar-link">Estudios</a></li>
+			<li class="navbar-item"><a href="index.html#experiencia" class="navbar-link">Experiencia</a></li>
+			<li class="navbar-item"><a href="index.html#sobre-mi" class="navbar-link">Sobre mi</a></li>
+			<li class="navbar-item"><a href="index.html#contact" class="navbar-link">Contacto</a></li>
+			<li class="navbar-item"><a href="#" class="navbar-link">Tareas</a></li>
+		</ul>
+	</nav>
+	<main class="container">
+		<div class="todo-section">
+			<h1 class="todo-header">Lista de tareas</h1>
+			<form>
+				<input type="text" name="tarea" placeholder="Escriba la nueva tarea" id="tarea" required>
+				<button class="add-task"><i class="fa fa-plus"></i></button>
+			</form>
+		</div>
+		<div class="loader"></div>
+		<div>
+			<ul class="todo-container">
+				<li class="todo-cabecera">tareas</li>
+			</ul>
+		</div>
+
+
+
+
+	</main>
+	<footer class="footer">
+		<p class="footer-text">Miguel Angel Arribas Sánchez &copy; 2016</p>
+	 </footer>
+</body>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/todo.js"></script>
+</html>
